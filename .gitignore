@@ -1,0 +1,21 @@
+logs
+*.log
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+build/Release
+
+/node_modules
+
+env.js
+.env
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy

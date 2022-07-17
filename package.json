@@ -1,0 +1,29 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Uma Rest API com Nodejs e express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flvasques/node-rest-api.git"
+  },
+  "author": "Fernando Vasques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flvasques/node-rest-api/issues"
+  },
+  "homepage": "https://github.com/flvasques/node-rest-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
