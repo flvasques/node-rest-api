@@ -35,3 +35,4 @@ app.use(function (req, res, next) {
 const server = app.listen(port, () => {
     console.log(`Listen at ${server.address().address}:${port}`);
 });
+module.exports = server;
