@@ -5,7 +5,7 @@ class Database {
   public connect: Sequelize;
 
   constructor() {
-    if(process.env.DB_TYPE == 'MYSQL') {
+    if(process.env.DB_TYPE == 'SQL') {
         this.connect = new Sequelize((process.env.DATA_BASE || ''), (process.env.DB_USER || ''), process.env.PASSWORD, {
           dialect: 'mysql',
           port: parseInt(process.env.DATA_BASE_PORT || '3306'),
